@@ -1,6 +1,6 @@
 #Marcin Zarkowski
 #marcinzarkowski5@gmail.com
-#Shelter Census hw
+
 
 import pandas as pd
 import matplotlib.pyplot as plt
