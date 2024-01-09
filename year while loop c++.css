@@ -1,0 +1,19 @@
+// Online C++ compiler to run C++ program online
+//Marcin Zarkowski
+#include <iostream>
+using namespace std;
+
+int main(){
+int year;
+cout<<"Enter year:"<<endl;
+cin>> year;
+while (year > 2018){
+cout<<"Year must be 2018 or earlier"<<endl;
+cout<<"Enter year:"<<endl;
+cin>> year;
+}
+
+if (year < 2018){
+cout<<"You entered: "<< year<<endl;}
+}
+ 

@@ -1,0 +1,40 @@
+//Marcin Zarkowski 24225410
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+
+    
+    cout << "Enter number between -31 and 31:"<<endl;
+    cin >> n;
+    int x;
+    if (n<0){
+        cout<<"1";
+        x=32 +n;
+    }
+    if (n>=0){
+        cout<<"0";
+        x=n;
+    }
+    
+    int b = 16;
+
+    
+    while (b > 0.5) {
+        
+        if (x >= b) {
+            cout << "1";
+            x -= b;
+        } else {
+            cout << "0";
+        }
+
+       
+        b /= 2;
+    }
+
+   
+    cout << endl;
+
+    return 0;
+}
