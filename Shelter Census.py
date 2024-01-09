@@ -1,5 +1,4 @@
 #Marcin Zarkowski
-#24225410
 #marcinzarkowski5@gmail.com
 #Shelter Census hw
 
